@@ -1,0 +1,14 @@
+// .container {
+//   max-width: $website-width;
+//   margin: auto;
+//   overflow: hidden;
+// }
+
+.bottom-line {
+  height: 2px;
+  width: 100%;
+  background: $light-color;
+  border-bottom: $medium-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
