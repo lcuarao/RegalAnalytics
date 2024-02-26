@@ -31,6 +31,24 @@
           </ul>
         </li>
 
+        <li <?php if ($page_category == 'statistics') {
+              echo "class='current'";
+            } ?>><a href='statistics.php'>Statistics</a>
+          <ul class='submenu'>
+            <li><a href='#'>Mean (Averages)</a></li>
+            <li><a href='#'>Variance (Spread)</a></li>
+            <li><a href='#'>Covariance</a></li>
+            <li><a href='#'>Correlation</a></li>
+            <li><a href='#'>Graphs</a></li>
+            <li><a href='#'>Sampling</a></li>
+            <li><a href='#'>Hypothesis Testing</a></li>
+            <li><a href='#'>t-test</a></li>
+            <li><a href='#'>Chi-squared test</a></li>
+            <li><a href='#'>F-test</a></li>
+            <li><a href='#'>Analysis of Variance</a></li>
+          </ul>
+        </li>
+
         <li <?php if ($page_category == 'probability') {
               echo "class='current'";
             } ?>><a href='probability.php'>Probability</a>
@@ -48,24 +66,6 @@
             <li><a href='#'>Gamma</a></li>
             <li><a href='#'>Beta</a></li>
             <li><a href='#'>Pareto</a></li>
-          </ul>
-        </li>
-
-        <li <?php if ($page_category == 'statistics') {
-              echo "class='current'";
-            } ?>><a href='statistics.php'>Statistics</a>
-          <ul class='submenu'>
-            <li><a href='#'>Mean (Averages)</a></li>
-            <li><a href='#'>Variance (Spread)</a></li>
-            <li><a href='#'>Covariance</a></li>
-            <li><a href='#'>Graphs</a></li>
-            <li><a href='#'>Correlation</a></li>
-            <li><a href='#'>Sampling</a></li>
-            <li><a href='#'>Hypothesis Testing</a></li>
-            <li><a href='#'>t-test</a></li>
-            <li><a href='#'>Chi-squared test</a></li>
-            <li><a href='#'>F-test</a></li>
-            <li><a href='#'>Analysis of Variance</a></li>
           </ul>
         </li>
 
