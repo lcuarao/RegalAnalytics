@@ -17,7 +17,6 @@
               echo "class='current'";
             } ?>><a href='mathematics.php'>Mathematics</a>
           <ul class='submenu'>
-            <li><a href='#'>Counting</a></li>
             <li><a href='#'>Algebra</a></li>
             <li><a href='#'>Algebra II</a></li>
             <li><a href='#'>Geometry</a></li>
@@ -28,6 +27,7 @@
             <li><a href='#'>Linear Algebra</a></li>
             <li><a href='#'>Differential Equations</a></li>
             <li><a href='#'>Analysis</a></li>
+            <li><a href='#'>Combinatorics</a></li>
           </ul>
         </li>
 
@@ -37,14 +37,14 @@
           <ul class='submenu'>
             <li><a href='#'>Bernoulli</a></li>
             <li><a href='#'>Binomial</a></li>
-            <li><a href='#'>Negative Binomial</a></li>
+            <li><a href='#'>Normal</a></li>
+            <li><a href='#'>Uniform</a></li>
+            <li><a href='#'>Poisson</a></li>
+            <li><a href='#'>Exponential</a></li>
             <li><a href='#'>Multinomial</a></li>
             <li><a href='#'>Geometric</a></li>
             <li><a href='#'>Hypergeometric</a></li>
-            <li><a href='#'>Poisson</a></li>
-            <li><a href='#'>Exponential</a></li>
-            <li><a href='#'>Uniform</a></li>
-            <li><a href='#'>Normal</a></li>
+            <li><a href='#'>Negative Binomial</a></li>
             <li><a href='#'>Gamma</a></li>
             <li><a href='#'>Beta</a></li>
             <li><a href='#'>Pareto</a></li>
@@ -55,12 +55,16 @@
               echo "class='current'";
             } ?>><a href='statistics.php'>Statistics</a>
           <ul class='submenu'>
-            <li><a href='#'>Central Tendency</a></li>
-            <li><a href='#'>Spread</a></li>
+            <li><a href='#'>Mean (Averages)</a></li>
+            <li><a href='#'>Variance (Spread)</a></li>
+            <li><a href='#'>Covariance</a></li>
+            <li><a href='#'>Graphs</a></li>
+            <li><a href='#'>Correlation</a></li>
+            <li><a href='#'>Sampling</a></li>
             <li><a href='#'>Hypothesis Testing</a></li>
             <li><a href='#'>t-test</a></li>
+            <li><a href='#'>Chi-squared test</a></li>
             <li><a href='#'>F-test</a></li>
-            <li><a href='#'>Inference</a></li>
             <li><a href='#'>Analysis of Variance</a></li>
           </ul>
         </li>
@@ -82,14 +86,15 @@
               echo "class='current'";
             } ?>><a href='regression.php'>Regression</a>
           <ul class='submenu'>
-            <li><a href='#'>Assumptions</a></li>
+            <li><a href='#'>Introduction</a></li>
             <li><a href='#'>Single Variable</a></li>
             <li><a href='#'>Multi-variable</a></li>
+            <li><a href='#'>Robust Standard Errors</a></li>
             <li><a href='#'>Linear Probability</a></li>
-            <li><a href='#'>Logit/Probit Regression</a></li>
-            <li><a href='#'>Poisson Regression</a></li>
-            <li><a href='#'>Heteroskedasticity</a></li>
-            <li><a href='#'>Robust SE</a></li>
+            <li><a href='#'>Logit/Probit</a></li>
+            <li><a href='#'>Random Effects</a></li>
+            <li><a href='#'>Mixed Effects</a></li>
+            <li><a href='#'>Multilevel</a></li>
             <li><a href='#'>Instrumental Variable</a></li>
             <li><a href='#'>Discontinuity Design</a></li>
             <li><a href='#'>Diff-in-Diff</a></li>
